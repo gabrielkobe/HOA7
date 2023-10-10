@@ -1,5 +1,5 @@
 #db_servers
-- name: install mariadb package (CentOS)
+  - name: install mariadb package (CentOS)
     tags: centos, db, mariadb
     dnf:
       name: mariadb-server

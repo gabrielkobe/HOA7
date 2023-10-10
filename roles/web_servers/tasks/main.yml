@@ -1,5 +1,5 @@
 #web_servers
-- name: install apache and php for Ubuntu servers
+  - name: install apache and php for Ubuntu servers
     tags: apache,apache2,ubuntu
     apt:
       name:
